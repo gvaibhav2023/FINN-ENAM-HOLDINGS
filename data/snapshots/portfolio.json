@@ -1,0 +1,101 @@
+{
+  "holdings": [
+    {
+      "symbol": "TRENT",
+      "name": "Trent Ltd",
+      "sector": "Apparel & Retail",
+      "qty": 60,
+      "avg_price": 6450.0,
+      "current_price": 7120.0,
+      "day_change_pct": 3.42,
+      "total_value": 427200.0,
+      "pnl_pct": 10.38,
+      "has_unread_filing": true
+    },
+    {
+      "symbol": "DIXON",
+      "name": "Dixon Technologies Ltd",
+      "sector": "Electronics EMS",
+      "qty": 35,
+      "avg_price": 13900.0,
+      "current_price": 15150.0,
+      "day_change_pct": 2.15,
+      "total_value": 530250.0,
+      "pnl_pct": 8.99,
+      "has_unread_filing": false
+    },
+    {
+      "symbol": "PERSISTENT",
+      "name": "Persistent Systems Ltd",
+      "sector": "IT & Software",
+      "qty": 70,
+      "avg_price": 5200.0,
+      "current_price": 5740.0,
+      "day_change_pct": -0.85,
+      "total_value": 401800.0,
+      "pnl_pct": 10.38,
+      "has_unread_filing": true
+    },
+    {
+      "symbol": "RELIANCE",
+      "name": "Reliance Industries Ltd",
+      "sector": "Energy & Retail",
+      "qty": 100,
+      "avg_price": 2840.0,
+      "current_price": 2980.0,
+      "day_change_pct": 0.45,
+      "total_value": 298000.0,
+      "pnl_pct": 4.92,
+      "has_unread_filing": false
+    },
+    {
+      "symbol": "HDFCBANK",
+      "name": "HDFC Bank Ltd",
+      "sector": "Banking",
+      "qty": 250,
+      "avg_price": 1620.0,
+      "current_price": 1745.0,
+      "day_change_pct": 1.12,
+      "total_value": 436250.0,
+      "pnl_pct": 7.71,
+      "has_unread_filing": true
+    },
+    {
+      "symbol": "BHARTIARTL",
+      "name": "Bharti Airtel Ltd",
+      "sector": "Telecom",
+      "qty": 180,
+      "avg_price": 1560.0,
+      "current_price": 1690.0,
+      "day_change_pct": 1.35,
+      "total_value": 304200.0,
+      "pnl_pct": 8.33,
+      "has_unread_filing": false
+    },
+    {
+      "symbol": "KPITTECH",
+      "name": "KPIT Technologies Ltd",
+      "sector": "Auto Software",
+      "qty": 90,
+      "avg_price": 1640.0,
+      "current_price": 1780.0,
+      "day_change_pct": 2.45,
+      "total_value": 160200.0,
+      "pnl_pct": 8.53,
+      "has_unread_filing": false
+    },
+    {
+      "symbol": "POLYCAB",
+      "name": "Polycab India Ltd",
+      "sector": "Cables & Electricals",
+      "qty": 50,
+      "avg_price": 6700.0,
+      "current_price": 7240.0,
+      "day_change_pct": -0.62,
+      "total_value": 362000.0,
+      "pnl_pct": 8.05,
+      "has_unread_filing": false
+    }
+  ]
+}
+

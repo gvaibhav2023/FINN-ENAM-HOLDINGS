@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "symbol": "TRENT",
+    "type": "volume_spike",
+    "triggered_at": "2026-11-03T09:45:00Z",
+    "value": 3.4,
+    "threshold": 2.0,
+    "message": "Trading volume spiked to 3.4x its 20-day trailing average following quarterly earnings disclosure.",
+    "announcement_headline": "Q2 FY25 Consolidated Revenue up 39.4% YoY at ₹4,156 Cr",
+    "seen": false
+  },
+  {
+    "id": 2,
+    "symbol": "PERSISTENT",
+    "type": "price_move",
+    "triggered_at": "2026-11-03T11:15:00Z",
+    "value": -3.8,
+    "threshold": 3.0,
+    "message": "Share price declined 3.8% intra-day testing the 50-day moving average.",
+    "seen": false
+  }
+]
+

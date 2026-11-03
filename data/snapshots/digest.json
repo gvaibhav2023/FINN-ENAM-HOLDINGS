@@ -1,0 +1,78 @@
+{
+  "material": [
+    {
+      "id": "trent-q2-fy25",
+      "symbol": "TRENT",
+      "company_name": "Trent Ltd",
+      "category": "results",
+      "card_type": "results",
+      "headline": "Q2 FY25 Consolidated Revenue up 39.4% YoY at ₹4,156 Cr; Zudio adds 34 stores",
+      "one_liner": "Exceptional top-line momentum driven by aggressive retail store additions and steady EBITDA margins.",
+      "filed_at": "2026-11-03T10:15:00Z",
+      "attachment_url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/trent_q2_results.pdf",
+      "card_payload": {
+        "rows": [
+          { "label": "Revenue", "curr": 4156, "yoy": 39.4, "qoq": 4.2, "is_currency": true },
+          { "label": "EBITDA", "curr": 642, "yoy": 42.1, "qoq": 3.8, "is_currency": true },
+          { "label": "PBT", "curr": 498, "yoy": 46.5, "qoq": 5.1, "is_currency": true },
+          { "label": "PAT", "curr": 371, "yoy": 46.8, "qoq": 4.9, "is_currency": true }
+        ],
+        "margin_comment": "EBITDA margin expanded by +30 bps YoY to 15.4%"
+      }
+    },
+    {
+      "id": "hdfc-cfo-appt",
+      "symbol": "HDFCBANK",
+      "company_name": "HDFC Bank Ltd",
+      "category": "management_change",
+      "card_type": "management_change",
+      "headline": "Board Approves Appointment of Group Head of Treasury as Executive Director",
+      "one_liner": "Strategic elevation to strengthen integrated liability management and post-merger balance sheet transition.",
+      "filed_at": "2026-11-03T08:30:00Z",
+      "attachment_url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/hdfc_mgmt_change.pdf",
+      "card_payload": {
+        "person": "Rajnish Sharma",
+        "role": "Executive Director & Head of Treasury",
+        "bio_summary": "26+ years across wholesale banking & forex risk at HDFC Bank. Previously structured pan-bank liquidity buffers."
+      }
+    },
+    {
+      "id": "dixon-jv-expansion",
+      "symbol": "DIXON",
+      "company_name": "Dixon Tech",
+      "category": "M&A",
+      "card_type": "general",
+      "headline": "Dixon enters 50.1% Joint Venture for Display Module Assembly with Global Tier-1",
+      "one_liner": "Deepens backward integration into mobile components under PLI 2.0 with targeted commercial rollout by Q1 FY26.",
+      "filed_at": "2026-11-02T16:45:00Z",
+      "attachment_url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/dixon_jv.pdf"
+    }
+  ],
+  "medium": [
+    {
+      "id": "reliance-press-release",
+      "symbol": "RELIANCE",
+      "category": "press_release",
+      "headline": "Reliance New Energy Commissions First Phase 5GW Solar Cell & Module Facility in Jamnagar",
+      "one_liner": "Commercial production commenced in line with declared capital expenditure timeline.",
+      "attachment_url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/reliance_press.pdf"
+    },
+    {
+      "id": "persistent-dividend",
+      "symbol": "PERSISTENT",
+      "category": "dividend",
+      "headline": "Declaration of Interim Dividend of ₹28 per equity share of face value ₹10",
+      "one_liner": "Record date fixed for November 18; payout implies 35% dividend distribution ratio.",
+      "attachment_url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/persistent_dividend.pdf"
+    }
+  ],
+  "routine": {
+    "count": 14,
+    "items": [
+      { "symbol": "TCS", "headline": "Intimation of Allotment of 12,450 Equity Shares under ESOP 2020 Scheme" },
+      { "symbol": "BHARTIARTL", "headline": "Notice of Trading Window Closure for Q2 Financial Results" },
+      { "symbol": "LT", "headline": "Compliance Certificate under Regulation 74(5) of SEBI (DP) Regulations" }
+    ]
+  }
+}
+

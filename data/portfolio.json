@@ -1,0 +1,29 @@
+{
+  "portfolio": [
+    { "symbol": "RELIANCE", "bse_code": "500325", "name": "Reliance Industries Ltd", "sector": "Energy & Retail", "mcap_bucket": "large", "qty": 100, "avg_price": 2840.0 },
+    { "symbol": "HDFCBANK", "bse_code": "500180", "name": "HDFC Bank Ltd", "sector": "Banking", "mcap_bucket": "large", "qty": 250, "avg_price": 1620.0 },
+    { "symbol": "TCS", "bse_code": "532540", "name": "Tata Consultancy Services", "sector": "IT Services", "mcap_bucket": "large", "qty": 80, "avg_price": 3950.0 },
+    { "symbol": "BHARTIARTL", "bse_code": "532454", "name": "Bharti Airtel Ltd", "sector": "Telecom", "mcap_bucket": "large", "qty": 180, "avg_price": 1560.0 },
+    { "symbol": "ITC", "bse_code": "500875", "name": "ITC Ltd", "sector": "FMCG / Cigarettes", "mcap_bucket": "large", "qty": 400, "avg_price": 475.0 },
+    { "symbol": "LT", "bse_code": "500510", "name": "Larsen & Toubro Ltd", "sector": "Infrastructure", "mcap_bucket": "large", "qty": 75, "avg_price": 3620.0 },
+    { "symbol": "SUNPHARMA", "bse_code": "524715", "name": "Sun Pharma Industries", "sector": "Pharma", "mcap_bucket": "large", "qty": 120, "avg_price": 1780.0 },
+    { "symbol": "MARUTI", "bse_code": "532500", "name": "Maruti Suzuki India", "sector": "Automobiles", "mcap_bucket": "large", "qty": 25, "avg_price": 12400.0 },
+    { "symbol": "BAJFINANCE", "bse_code": "500034", "name": "Bajaj Finance Ltd", "sector": "NBFC", "mcap_bucket": "large", "qty": 40, "avg_price": 6850.0 },
+    { "symbol": "TRENT", "bse_code": "500251", "name": "Trent Ltd", "sector": "Apparel & Retail", "mcap_bucket": "large", "qty": 60, "avg_price": 6450.0 },
+    { "symbol": "DIXON", "bse_code": "540699", "name": "Dixon Technologies Ltd", "sector": "Electronics EMS", "mcap_bucket": "mid", "qty": 35, "avg_price": 13900.0 },
+    { "symbol": "POLYCAB", "bse_code": "542652", "name": "Polycab India Ltd", "sector": "Cables & Electricals", "mcap_bucket": "large", "qty": 50, "avg_price": 6700.0 },
+    { "symbol": "PERSISTENT", "bse_code": "533179", "name": "Persistent Systems Ltd", "sector": "IT & Software", "mcap_bucket": "mid", "qty": 70, "avg_price": 5200.0 },
+    { "symbol": "TATAPOWER", "bse_code": "500400", "name": "Tata Power Company Ltd", "sector": "Power & Renewables", "mcap_bucket": "large", "qty": 300, "avg_price": 415.0 },
+    { "symbol": "ETERNAL", "bse_code": "544000", "name": "Eternal India Technologies", "sector": "Specialty Tech", "mcap_bucket": "small", "qty": 150, "avg_price": 280.0 },
+    { "symbol": "KPITTECH", "bse_code": "542651", "name": "KPIT Technologies Ltd", "sector": "Auto Software", "mcap_bucket": "mid", "qty": 90, "avg_price": 1640.0 },
+    { "symbol": "DEEPAKNTR", "bse_code": "506401", "name": "Deepak Nitrite Ltd", "sector": "Specialty Chemicals", "mcap_bucket": "mid", "qty": 85, "avg_price": 2680.0 },
+    { "symbol": "CDSL", "bse_code": "540526", "name": "Central Depository Services", "sector": "Capital Markets", "mcap_bucket": "mid", "qty": 110, "avg_price": 1490.0 }
+  ],
+  "watchlist": [
+    { "symbol": "ASIANPAINT", "bse_code": "500820", "name": "Asian Paints Ltd", "sector": "Paints & Coatings", "mcap_bucket": "large" },
+    { "symbol": "PIDILITIND", "bse_code": "500331", "name": "Pidilite Industries Ltd", "sector": "Adhesives & Chemicals", "mcap_bucket": "large" },
+    { "symbol": "HAL", "bse_code": "541154", "name": "Hindustan Aeronautics Ltd", "sector": "Defense & Aerospace", "mcap_bucket": "large" },
+    { "symbol": "IRCTC", "bse_code": "542830", "name": "Indian Railway Catering & Tourism", "sector": "Travel & Hospitality", "mcap_bucket": "mid" }
+  ]
+}
+

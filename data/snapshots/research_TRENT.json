@@ -1,0 +1,64 @@
+{
+  "promised_vs_delivered": {
+    "payload": {
+      "credibility_score": "8/10",
+      "synthesis": "Trent management has consistently beaten retail square-footage addition targets while keeping Zudio gross margins intact. Minor moderation noted in Star Bazaar format profitability.",
+      "promises": [
+        {
+          "metric": "Store Additions (Zudio)",
+          "verdict": "Delivered",
+          "verbatim_quote": "We aim to open approximately 150 to 180 Zudio stores across Tier 2-3 cities this fiscal year.",
+          "actual_outcome": "Added 192 stores across FY24; pace sustained into Q2 FY25.",
+          "source_citation": "Q3 FY24 Concall · p.4",
+          "source_url": "https://www.screener.in/company/TRENT/"
+        },
+        {
+          "metric": "EBITDA Margin Discipline",
+          "verdict": "Delivered",
+          "verbatim_quote": "Operating leverage will help maintain our retail EBIT margins in the 14-16% envelope.",
+          "actual_outcome": "Reported 15.4% consolidated EBITDA margin in Q2 FY25.",
+          "source_citation": "Q1 FY25 Concall · p.8",
+          "source_url": "https://www.screener.in/company/TRENT/"
+        },
+        {
+          "metric": "Star Bazaar Store Turnaround",
+          "verdict": "Partial",
+          "verbatim_quote": "Food retail format expected to break even at store EBITDA level within 4 quarters.",
+          "actual_outcome": "Gross margins improved +120 bps, but corporate overhead kept format mildly negative.",
+          "source_citation": "FY24 Annual Report · p.52",
+          "source_url": "https://www.screener.in/company/TRENT/"
+        }
+      ]
+    },
+    "model_info": "Synthesized with Gemini Flash ×4 + Gemini Pro ×1 · 16.4k tokens · ≈ ₹0.85 · Primary concall citations verified"
+  },
+  "snapshot": {
+    "payload": {
+      "business_model": "Operates high-growth value & lifestyle fashion retail formats (Westside, Zudio, Misbu) along with food joint ventures (Star Bazaar with Tesco) and international beauty collaborations.",
+      "kpis": [
+        { "label": "TTM Revenue", "value": "₹15,480 Cr" },
+        { "label": "EBITDA Margin", "value": "15.4%" },
+        { "label": "5-Yr Revenue CAGR", "value": "36.2%" },
+        { "label": "Return on Equity (ROE)", "value": "29.4%" },
+        { "label": "Debt to Equity", "value": "0.18x" }
+      ]
+    },
+    "model_info": "Sourced from Screener.in primary filings tables & FY24 Annual Report"
+  },
+  "bull_bear": {
+    "payload": {
+      "bull_points": [
+        "Rapid Zudio footprint expansion capturing middle-income discretionary fashion spend at ultra-fast inventory turns (22 days).",
+        "Proprietary supply chain model allows 100% own-branded apparel with zero franchisee revenue leakage.",
+        "Emerging format incubation (Misbu, Star supermarket turnaround) providing optionality beyond apparel."
+      ],
+      "bear_points": [
+        "Valuation multiples (P/E > 110x) leave zero margin of safety for store-level sales saturation.",
+        "Intensified competition from Reliance Trends and Aditya Birla Fashion fast-fashion formats in Tier 2 cities.",
+        "Vulnerability of retail store leases to commercial rent inflation across metro catchments."
+      ]
+    },
+    "model_info": "Synthesized from MD&A Risk disclosures & latest 4 concall transcripts"
+  }
+}
+

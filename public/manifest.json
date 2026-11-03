@@ -1,0 +1,17 @@
+{
+  "name": "FINN — Financial Investment Agent",
+  "short_name": "FINN",
+  "description": "Mobile-first financial investment agent for Indian equity investors",
+  "start_url": "/brief",
+  "display": "standalone",
+  "background_color": "#0B0D10",
+  "theme_color": "#0B0D10",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}
+

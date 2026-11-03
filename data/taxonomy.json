@@ -1,0 +1,35 @@
+{
+  "categories": {
+    "results": { "weight": 3.0, "level": "high", "label": "Financial Results" },
+    "M&A": { "weight": 3.0, "level": "high", "label": "Mergers & Acquisitions" },
+    "management_change": { "weight": 2.8, "level": "high", "label": "Leadership Transition" },
+    "fund_raise": { "weight": 2.5, "level": "high", "label": "Capital Raise" },
+    "litigation": { "weight": 2.5, "level": "high", "label": "Regulatory & Legal Orders" },
+    "credit_rating": { "weight": 2.2, "level": "high", "label": "Credit Rating Update" },
+    "pledging": { "weight": 2.2, "level": "high", "label": "Promoter Pledging" },
+    "dividend": { "weight": 1.8, "level": "medium", "label": "Dividend Declaration" },
+    "bonus_split": { "weight": 1.8, "level": "medium", "label": "Bonus / Stock Split" },
+    "capex": { "weight": 1.8, "level": "medium", "label": "Capex Announcement" },
+    "press_release": { "weight": 1.5, "level": "medium", "label": "Business Order / Press Release" },
+    "insider_trading": { "weight": 1.2, "level": "medium", "label": "Insider Trade Disclosure" },
+    "earnings_call": { "weight": 0.5, "level": "low", "label": "Concall Schedule" },
+    "investor_meetings": { "weight": 0.5, "level": "low", "label": "Analyst Meet Notice" },
+    "postal_ballot": { "weight": 0.4, "level": "low", "label": "Postal Ballot Notice" },
+    "agm_egm": { "weight": 0.4, "level": "low", "label": "AGM / EGM Notice" },
+    "unclassified": { "weight": 0.2, "level": "low", "label": "Routine Compliance / ESOPs" }
+  },
+  "keyword_mappings": [
+    { "category": "results", "keywords": ["financial results", "un-audited results", "audited results", "quarterly results", "financial performance"] },
+    { "category": "management_change", "keywords": ["resignation", "appointment", "superannuation", "chief executive", "chief financial", "managing director", "key managerial"] },
+    { "category": "M&A", "keywords": ["acquisition", "merger", "amalgamation", "slump sale", "divestment", "takeover"] },
+    { "category": "fund_raise", "keywords": ["qip", "rights issue", "preferential allotment", "qualified institutions", "issuance of shares", "ncd issue"] },
+    { "category": "credit_rating", "keywords": ["credit rating", "rating upgraded", "rating downgraded", "crisil", "icra", "care ratings"] },
+    { "category": "litigation", "keywords": ["penalty", "sebi order", "tax demand", "show cause", "gst demand", "adjudication"] },
+    { "category": "dividend", "keywords": ["interim dividend", "final dividend", "special dividend", "record date for dividend"] },
+    { "category": "bonus_split", "keywords": ["sub-division", "stock split", "bonus issue", "bonus shares"] },
+    { "category": "capex", "keywords": ["capacity expansion", "new manufacturing unit", "commercial production", "greenfield project"] },
+    { "category": "earnings_call", "keywords": ["concall transcript", "audio recording", "schedule of conference call", "analyst call"] },
+    { "category": "unclassified", "keywords": ["trading window", "esop allotment", "share certificate", "demat", "loss of share certificate", "compliance certificate under reg"] }
+  ]
+}
+

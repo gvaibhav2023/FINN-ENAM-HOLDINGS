@@ -1,0 +1,38 @@
+name: Daily Primary Disclosure Refresh
+
+on:
+  schedule:
+    - cron: '0 13 * * 1-5' # 13:00 UTC (6:30 PM IST) Mon-Fri
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Pipeline Dependencies
+        run: |
+          pip install -r pipeline/requirements.txt
+
+      - name: Refresh Prices & Announcements
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python pipeline/refresh_prices.py
+          python pipeline/fetch_announcements.py
+
+      - name: Commit Updated Snapshot Fallbacks
+        run: |
+          git config --global user.name "FINN Automated Bot"
+          git config --global user.email "bot@finn.ai"
+          git add data/snapshots/*.json
+          git commit -m "Auto-refresh primary snapshot caches [skip ci]" || echo "No changes to commit"
+          git push
+
